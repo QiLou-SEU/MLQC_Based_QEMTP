@@ -1,0 +1,10 @@
+benchmark_type,matrix_dim,qubit_num,trials,standard_diag_only_avg_compute_time_sec,standard_diag_only_avg_term_count,standard_diag_only_avg_rel_fro_error,standard_diag_only_avg_sparse_conversion_time_sec,standard_diag_only_avg_core_compute_time_sec,mlqc_avg_compute_time_sec,mlqc_avg_term_count,mlqc_avg_rel_fro_error,mlqc_avg_sparse_conversion_time_sec,mlqc_avg_core_compute_time_sec,mlqc_avg_perm_time_sec,mlqc_avg_svd_time_sec,mlqc_avg_subblock_expand_time_sec,mlqc_avg_combine_time_sec,mlqc_avg_effective_rank
+random_symmetric,4,2,10,0.0003319,10,7.31E-17,0,0,0.0060746,10,2.14E-16,0,0,8.80E-06,0.0051188,0.0002874,1.49E-05,4
+random_symmetric,8,3,10,0.0020504,36,1.66E-16,0,0,0.0008448,36,7.91E-16,0,0,2.11E-05,0.0001219,0.0001531,2.43E-05,4
+random_symmetric,16,4,10,0.0124703,136,1.55E-16,0,0,0.0028759,136,1.06E-15,0,0,2.19E-05,8.52E-05,0.000947299,0.0002573,16
+random_symmetric,32,5,10,0.0770816,528,2.52E-16,0,0,0.0075312,528,1.22E-15,0,0,6.98E-05,0.0005844,0.002261899,0.0009385,16
+random_symmetric,64,6,10,0.5278224,2080,3.36E-16,0,0,0.0474348,2080,1.71E-15,0,0,7.96E-05,0.0018831,0.015225902,0.0137936,64
+random_symmetric,128,7,10,4.1955492,8256,4.69E-16,0,0,0.1446921,8256,1.69E-15,0,0,0.0003317,0.0020481,0.043094903,0.0579617,64
+random_symmetric,256,8,5,52.5576434,32896,6.60E-16,0,0,1.4725323,32896,2.02E-15,0,0,0.0004949,0.0250117,0.298992486,0.904058,256
+random_symmetric,512,9,5,819.2570341,131328,9.44E-16,0,0,9.0975596,131328,2.30E-15,0,0,0.0021597,0.0348856,4.464041495,3.8050089,256
+random_symmetric,1024,10,1,15552.55575,524800,1.33E-15,0,0,109.7211703,524800,2.93E-15,0,0,0.0058773,0.2933379,37.67974752,66.5819576,1024
